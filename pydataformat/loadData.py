@@ -27,5 +27,5 @@ class LoadData():
         for l in ref_list:
             gts[l['image_id']].append({"caption": l['caption']})
 
-        res = cand_list;
+        res = cand_list
         return gts, res
